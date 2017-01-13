@@ -1,6 +1,7 @@
 # CakePHP 3
 
 /vendor/*
+!/vendor/composer/*
 !/vendor/autoload.php
 !/vendor/cakephp-plugins.php
 
