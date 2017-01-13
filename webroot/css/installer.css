@@ -1,0 +1,140 @@
+/*
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    background: url("../img/sidebare/background3.png") repeat top center #354349;
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/* ####### BLOC ####### */
+.bloc{
+    width: 100%;
+    max-width: 700px;
+    background: #e6eaee;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-box-shadow: 0px 0px 20px 0px #273237;
+    -webkit-box-shadow: 0px 0px 20px 0px #273237;
+    -o-box-shadow: 0px 0px 20px 0px #273237;
+    box-shadow: 0px 0px 20px 0px #273237;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#273237, Direction=NaN, Strength=20);
+    margin: 5% auto 0 auto;
+    padding: 40px 0;
+}
+.bloc .logo{
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+.bloc .logo img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* ####### INSTRUCTIONS ####### */
+.bloc .instructions{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    margin: 0 5% 20px 5%;
+    padding: 20px 10px;
+}
+.bloc .instructions h1{
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #354349;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.bloc .instructions p{
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #757c84;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+.bloc .instructions p span{
+    width: 100%;
+    display: block;
+    background-color: #354349;
+    color: #fff;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* ####### BTN ####### */
+.bloc .btn{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bloc .btn a{
+    display: block;
+    width: 30%;
+    background-color: #18b24a;
+    color: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    margin: 0 auto;
+    padding: 7px 0;
+}
+.bloc .btn a:hover{
+    text-decoration: none;
+}

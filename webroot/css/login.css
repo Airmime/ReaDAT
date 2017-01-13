@@ -1,0 +1,170 @@
+/*
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    background: url("../img/sidebare/background3.png") repeat top center #354349;
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/* ####### LOGIN ####### */
+.login{
+    width: 100%;
+    max-width: 420px;
+    background: #e6eaee;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-box-shadow: 0px 0px 20px 0px #273237;
+    -webkit-box-shadow: 0px 0px 20px 0px #273237;
+    -o-box-shadow: 0px 0px 20px 0px #273237;
+    box-shadow: 0px 0px 20px 0px #273237;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#273237, Direction=NaN, Strength=20);
+    margin: 10% auto 0 auto;
+    padding: 40px 0;
+}
+.login .logo{
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+.login .logo img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* INPUT */
+.login .form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.login .form input{
+    width: 80%;
+    height: 35px;
+    display: block;
+    background-color: #e6eaee;
+    border: none;
+    border-bottom: 2px solid #65767d;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    color: #354349;
+    margin: 0 auto 15px auto;
+    padding: 0 0 0 25px;
+}
+.login .form .username{
+    background: url("../img/login/mail.png") no-repeat left;
+}
+.login .form .email{
+    background: url("../img/login/email.png") no-repeat left;
+}
+.login .form .key{
+    background: url("../img/login/password.png") no-repeat left;
+}
+.login .form .error{
+    width: 90%;
+    background-color: #ecc9c9;
+    color: #a55e5e;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.login .form .success{
+    width: 90%;
+    background-color: #d4eed7;
+    color: #6ca573;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+/* PASSWORD */
+.login .password{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.login .password a{
+    color: #354349;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 11px;
+}
+
+/* SUBMIT */
+.login .form .submit{
+    display: block;
+    width: 50%;
+    height: 45px;
+    background-color: #364248;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    margin: 20px auto 0 auto;
+    padding: 0;
+}
+.login .form .submit:hover{
+    background-color: #3aa7da;
+}

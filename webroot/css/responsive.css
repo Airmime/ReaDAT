@@ -1,0 +1,39 @@
+/* ####### RESPONSIVE ####### */
+
+@media (max-width: 992px) {
+    .sidebar{
+        display: none;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .content .bloc .hooks{
+        display: none;
+    }
+
+    .content .bloc .timeline{
+        width: 95%;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .content .header .burgerresponsive{
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .content .bloc .settings_menu{
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .content .bloc .settings_content{
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+    }
+}
