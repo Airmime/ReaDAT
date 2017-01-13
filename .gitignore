@@ -1,6 +1,8 @@
 # CakePHP 3
 
 /vendor/*
+!/vendor/autoload.php
+!/vendor/cakephp-plugins.php
 
 /tmp/cache/models/*
 !/tmp/cache/models/empty
