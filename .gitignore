@@ -12,7 +12,6 @@
 !/tmp/sessions/empty
 /tmp/tests/*
 !/tmp/tests/empty
-installed.txt
 
 /logs/*
 !/logs/empty
@@ -20,3 +19,4 @@ installed.txt
 # OS generated files #
 .DS_Store
 tmp/installed.txt
+/.idea/
