@@ -12,7 +12,7 @@
 !/tmp/sessions/empty
 /tmp/tests/*
 !/tmp/tests/empty
-/tmp/tests/installed.txt
+installed.txt
 
 /logs/*
 !/logs/empty
