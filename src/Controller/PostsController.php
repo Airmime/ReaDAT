@@ -273,7 +273,7 @@ class PostsController extends AppController
     }
 
     /**
-     * ACTION FOR PUT POSTS READ
+     * ACTION FOR PUT POSTS READ (AJAX)
      */
     public function read(){
 
@@ -355,6 +355,8 @@ class PostsController extends AppController
             die;
             // TODO : EXCEPTION
         }
+
+        $this->autoRender = false;
     }
 
     /**
@@ -384,6 +386,8 @@ class PostsController extends AppController
             die;
             // TODO : EXCEPTION
         }
+
+        $this->autoRender = false;
     }
 
 }
