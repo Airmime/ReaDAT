@@ -24,7 +24,7 @@ class PostsTable extends Table
         $this->addBehavior('CounterCache', [
             'Websites' => [
                 'nb_unread' => [
-                    'conditions' => ['posts.reading' => 0]
+                    'conditions' => ['reading' => 0]
                 ]
             ]
         ]);
