@@ -6,7 +6,7 @@
 
 ReaDAT - Open source Web App for Technology watch.
 
-
+![ReaDAT](http://zupimages.net/up/17/04/5ip8.jpg)
 
 ## Requirements
 
