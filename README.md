@@ -1,4 +1,4 @@
-# ReaDAT
+# ReaDAT - [getreadat.com](http://getreadat.com/)
 
 [![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
