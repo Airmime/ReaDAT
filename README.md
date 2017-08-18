@@ -12,8 +12,8 @@ ReaDAT - Open source Web App for Technology watch.
 
 - HTTP Server. For example: Apache. Having mod_rewrite is preferred, but by no means required.
 - PHP 5.5.9 or greater (including PHP 7).
-- mbstring PHP extension
-- intl PHP extension
+- mbstring PHP extension 
+- intl PHP extension (more information here : [install intl extension.](http://php.net/manual/fr/intl.installation.php)
 - MySQL (5.1.10 or greater)
 
 For more information on installation, [follow this link.](https://book.cakephp.org/3.0/en/installation.html)
