@@ -755,6 +755,7 @@ textarea:focus, input:focus{
     font-size: 14px;
     line-height: 20px;
     color: #9aa4ae;
+    text-align: justify;
     margin: 15px 0;
     padding: 0;
 }
